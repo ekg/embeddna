@@ -5,3 +5,5 @@ This small experiment develops embeddings for subsequences of many genomes and c
 You can run it with `python embed.py`.
 
 It needs CUDA, PyTorch, Biopython, Annoy to work, and a GPU to work at a reasonable speed.
+
+Setup with `conda env create --file=environment.yml`, and then `conda activate embeddna`.
